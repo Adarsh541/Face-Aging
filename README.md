@@ -1,1 +1,2 @@
 # Face-Aging
+Implemented a Deep Learning model which, given a face image of a person, generates aged face image of given category while preserving the identity of the individual. Conditional GANs, Face recognition models are used to construct the model. The model is trained on IMDB-WIKI dataset which were provided as .mat file. The mat file is loaded using scipy and the model is constructed and trained using keras.
